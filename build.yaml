@@ -13,4 +13,5 @@
 #
 ---
 include:
-  - board: nice60
+  - board: seeeduino_xiao_ble
+    shield: micropad

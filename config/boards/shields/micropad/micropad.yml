@@ -1,0 +1,9 @@
+file_format: "1"
+id: micropad
+name: MicroPad
+type: shield
+url: https://github.com/WarpspeedSCP/micropad.git
+requires: [seeeuino_xiao_ble]
+features:
+  - keys
+  - encoder
