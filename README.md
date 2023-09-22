@@ -1,17 +1,17 @@
 # micropad
 zmk config repo for the micropad, a seeed studio xiao BLE based macro pad with encoder support.
 
-Here's the current key config (top right key is encoder click, the encoder is set for volume control):
+Here's the current key config. Top right key is encoder click (the encoder is set for volume control):
 
 Base layer:
 ---
 ```
-┌──────────┬───────────┐
-│          │           │
-│          │  play/    │
-│          │  pause    │
-│          │ (vol ctl) │
-├──────────┼───────────┤
+           ┌───────────┐
+           │           │
+           │  play/    │
+           │  pause    │
+           │ (vol ctl) │
+┌──────────┼───────────┤
 │          │           │
 │  page    │  page     │
 │  up      │  down     │
@@ -32,13 +32,16 @@ Base layer:
 
 Settings layer:
 ---
+
+Empty cells are `&trans`.
+
 ```
-┌───────────┬───────────┐
-│           │           │
-│           │  boot     │
-│           │  loader   │
-│           │           │
-├───────────┼───────────┤
+            ┌───────────┐
+            │           │
+            │  boot     │
+            │  loader   │
+            │           │
+┌───────────┼───────────┤
 │           │           │
 │           │           │
 │           │           │
