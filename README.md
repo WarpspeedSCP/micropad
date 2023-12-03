@@ -19,8 +19,8 @@ zmk config repo for the micropad, a seeed studio xiao BLE based macro pad with e
 
 Here's the current key config. Top right key is encoder click (the encoder is set for volume control):
 
-Base layer:
----
+### Base layer:
+
 ```
            ┌───────────┐
            │           │
@@ -46,8 +46,7 @@ Base layer:
 └──────────┴───────────┘
 ```
 
-Settings layer:
----
+### Settings layer:
 
 Empty cells are `&trans`.
 
